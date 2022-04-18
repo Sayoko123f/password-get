@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-grad {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #f09819 51%,
+        #ff512f 100%
+    );
+    margin: 10px;
+    padding: 12px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+}
