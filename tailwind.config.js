@@ -5,7 +5,6 @@ module.exports = {
     },
     darkMode: 'class',
     plugins: [
-        require('prettier-plugin-tailwindcss'),
         require('@tailwindcss/forms')({ strategy: 'class' }),
     ],
 };
